@@ -1,0 +1,50 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Flask-specific
+instance/
+.pytest_cache/
+*.sqlite3
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.swp
+
+# Distribution and packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.tar.gz
+*.whl
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Database files
+*.db
